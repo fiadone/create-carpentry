@@ -1,0 +1,30 @@
+{
+  "name": "@fiad/create-carpentry",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Andrea \"Fiad\" Fiadone",
+  "bin": {
+    "create-carpentry": "index.js",
+    "cca": "index.js"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiadone/create-carpentry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fiadone/create-carpentry/issues"
+  },
+  "homepage": "https://github.com/fiadone/create-carpentry#readme",
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.5",
+    "prompts": "^2.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
